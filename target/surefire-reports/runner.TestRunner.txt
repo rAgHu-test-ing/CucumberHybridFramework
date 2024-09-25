@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.92 s <<< FAILURE! -- in runner.TestRunner
+Search Functionality.User searches for a valid product -- Time elapsed: 2.770 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results(Search.java:45)
+	at ✽.User should get valid product displayed in search results(file:///D:/Education/Frameworks%20Workspace/CucumberHybridFramework/src/test/resources/features/Search.feature:8)
+

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="42.918" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Education\Frameworks Workspace\CucumberHybridFramework\target\test-classes;D:\Education\Frameworks Workspace\CucumberHybridFramework\target\classes;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-java\7.19.0\cucumber-java-7.19.0.jar;C:\Users\nvrag\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-junit\7.19.0\cucumber-junit-7.19.0.jar;C:\Users\nvrag\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\nvrag\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-core\7.19.0\cucumber-core-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-gherkin\7.19.0\cucumber-gherkin-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.19.0\cucumber-gherkin-messages-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\datatable\7.19.0\datatable-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-plugin\7.19.0\cucumber-plugin-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\docstring\7.19.0\docstring-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\nvrag\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\nvrag\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\nvrag\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nvrag\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nvrag\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\nvrag\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\nvrag\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\nvrag\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\nvrag\AppData\Local\Temp\surefire6152813930426666754\surefirebooter-20240925220033920_3.jar C:\Users\nvrag\AppData\Local\Temp\surefire6152813930426666754 2024-09-25T22-00-33_809-jvmRun1 surefire-20240925220033920_1tmp surefire_0-20240925220033920_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Education\Frameworks Workspace\CucumberHybridFramework\target\test-classes;D:\Education\Frameworks Workspace\CucumberHybridFramework\target\classes;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-java\7.19.0\cucumber-java-7.19.0.jar;C:\Users\nvrag\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-junit\7.19.0\cucumber-junit-7.19.0.jar;C:\Users\nvrag\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\nvrag\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-core\7.19.0\cucumber-core-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-gherkin\7.19.0\cucumber-gherkin-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.19.0\cucumber-gherkin-messages-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\datatable\7.19.0\datatable-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\cucumber-plugin\7.19.0\cucumber-plugin-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\docstring\7.19.0\docstring-7.19.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\nvrag\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\nvrag\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\nvrag\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\nvrag\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nvrag\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nvrag\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\nvrag\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\nvrag\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\nvrag\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\nvrag\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\nvrag\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nvrag"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Education\Frameworks Workspace\CucumberHybridFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nvrag\AppData\Local\Temp\surefire6152813930426666754\surefirebooter-20240925220033920_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="nvrag"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nvrag\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nvrag\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="D:\Education\Frameworks Workspace\CucumberHybridFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\Wbem;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\nvrag\AppData\Local\Microsoft\WindowsApps;C:\Users\nvrag\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Login with Valid Credentials #1" classname="Login Functionality" time="3.527">
+    <system-out><![CDATA[
+Scenario Outline: Login with Valid Credentials                                     &amp#27;[90m# src/test/resources/features/Login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1mamotooricap1@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get logged in successfully&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Login.user_should_get_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with Valid Credentials #2" classname="Login Functionality" time="2.972">
+    <system-out><![CDATA[
+Scenario Outline: Login with Valid Credentials                                     &amp#27;[90m# src/test/resources/features/Login.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1mamotooricap2@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get logged in successfully&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Login.user_should_get_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with Valid Credentials #3" classname="Login Functionality" time="2.856">
+    <system-out><![CDATA[
+Scenario Outline: Login with Valid Credentials                                     &amp#27;[90m# src/test/resources/features/Login.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1mamotooricap3@gmail.com&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m12345&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get logged in successfully&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Login.user_should_get_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with Invalid Credentials" classname="Login Functionality" time="2.836">
+    <system-out><![CDATA[
+Scenario: Login with Invalid Credentials                              &amp#27;[90m# src/test/resources/features/Login.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the invalid email address into email field&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.user_enters_the_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345abc"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_the_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with valid email and invalid password" classname="Login Functionality" time="2.887">
+    <system-out><![CDATA[
+Scenario: Login with valid email and invalid password                       &amp#27;[90m# src/test/resources/features/Login.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345abc"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login.user_enters_the_invalid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with invalid email and valid password" classname="Login Functionality" time="2.812">
+    <system-out><![CDATA[
+Scenario: Login with invalid email and valid password            &amp#27;[90m# src/test/resources/features/Login.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the invalid email address into email field&amp#27;[0m    &amp#27;[90m# stepdefinitions.Login.user_enters_the_invalid_email_address_into_email_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters the valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login with no credentials" classname="Login Functionality" time="2.793">
+    <system-out><![CDATA[
+Scenario: Login with no credentials                 &amp#27;[90m# src/test/resources/features/Login.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Login Page&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_navigates_to_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter email into email field&amp#27;[0m       &amp#27;[90m# stepdefinitions.Login.user_dont_enter_email_into_email_field()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter password into password field&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_dont_enter_password_into_password_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m     &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account only with mandatory fields" classname="Registration Functionality" time="3.258">
+    <system-out><![CDATA[
+Scenario: User creates an account only with mandatory fields &amp#27;[90m# src/test/resources/features/Register.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account Page&amp#27;[0m              &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m             &amp#27;[90m# stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Arun       |
+    | lastName  | Qafox      |
+    | telephone | 9848012547 |
+    | password  | 123456     |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on continue button&amp#27;[0m                         &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m          &amp#27;[90m# stepdefinitions.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account with all fields" classname="Registration Functionality" time="3.326">
+    <system-out><![CDATA[
+Scenario: User creates an account with all fields   &amp#27;[90m# src/test/resources/features/Register.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account Page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the details into below fields&amp#27;[0m    &amp#27;[90m# stepdefinitions.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | Arun       |
+    | lastName  | Qafox      |
+    | telephone | 9848012547 |
+    | password  | 123456     |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for newsletter&amp#27;[0m               &amp#27;[90m# stepdefinitions.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on continue button&amp#27;[0m                &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get created successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates a duplicate account" classname="Registration Functionality" time="3.129">
+    <system-out><![CDATA[
+Scenario: User creates a duplicate account                            &amp#27;[90m# src/test/resources/features/Register.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account Page&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters exisiting email along with other below fields&amp#27;[0m      &amp#27;[90m# stepdefinitions.Register.User_enters_exisiting_email_along_with_other_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName    | Arun                   |
+    | lastName     | Qafox                  |
+    | emailAddress | amotooricap1@gmail.com |
+    | telephone    | 9848012547             |
+    | password     | 123456                 |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Yes for newsletter&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects privacy policy&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Register.user_selects_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on continue button&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get a proper warning about duplicate email&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_account_should_get_a_proper_warning_about_duplicate_email()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User creates an account without filling any details" classname="Registration Functionality" time="2.874">
+    <system-out><![CDATA[
+Scenario: User creates an account without filling any details                      &amp#27;[90m# src/test/resources/features/Register.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account Page&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_account_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enters any details into fields&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.Register.user_dont_enters_any_details_into_fields()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on continue button&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.Register.user_clicks_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser account should get a proper warning messages for every mandatory field&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_account_should_get_a_proper_warning_messages_for_every_mandatory_field()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User searches for a valid product" classname="Search Functionality" time="2.77">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results(Search.java:45)
+	at ✽.User should get valid product displayed in search results(file:///D:/Education/Frameworks%20Workspace/CucumberHybridFramework/src/test/resources/features/Search.feature:8)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: User searches for a valid product                      &amp#27;[90m# src/test/resources/features/Search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the valid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m  &amp#27;[90m# stepdefinitions.Search.user_enters_the_valid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should get valid product displayed in search results&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepdefinitions.Search.user_should_get_valid_product_displayed_in_search_results(Search.java:45)
+	at ✽.User should get valid product displayed in search results(file:///D:/Education/Frameworks%20Workspace/CucumberHybridFramework/src/test/resources/features/Search.feature:8)
+&amp#27;[0m
+
+    Embedding User_searches_for_a_valid_product [image/png 101227 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="User searches for an invalid product" classname="Search Functionality" time="2.2">
+    <system-out><![CDATA[
+Scenario: User searches for an invalid product                          &amp#27;[90m# src/test/resources/features/Search.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters the invalid product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Footwear"&amp#27;[0m&amp#27;[32m into Search box field&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_enters_the_invalid_product_into_search_box_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m              &amp#27;[90m# stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User searches without any product" classname="Search Functionality" time="2.159">
+    <system-out><![CDATA[
+Scenario: User searches without any product                   &amp#27;[90m# src/test/resources/features/Search.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens the application&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Search.user_opens_the_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser dont enter any product name into Search box field&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_dont_enter_any_product_name_into_search_box_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Search button&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a message about no product matching&amp#27;[0m    &amp#27;[90m# stepdefinitions.Search.user_should_get_a_message_about_no_product_matching()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
